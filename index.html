@@ -28,9 +28,11 @@
             overflow: hidden;
         }
         .event img {
-            width: 100%; /* Make the image responsive */
-            height: auto;
-            object-fit: cover;
+            width: 100%; /* Adjust to container width */
+            max-width: 300px; /* Limit maximum width */
+            height: auto; /* Maintain aspect ratio */
+            object-fit: cover; /* Ensure image fits within the bounds */
+            margin: 10px auto; /* Center the image for smaller screens */
         }
         .event-details {
             padding: 20px;
